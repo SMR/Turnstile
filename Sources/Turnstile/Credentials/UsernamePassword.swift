@@ -9,7 +9,7 @@
 /**
  PasswordCredentials represents a username/password, email/password, etc pair.
  */
-public class UsernamePassword: Credentials {
+open class UsernamePassword: Credentials {
     /// Username or email address
     public let username: String
     
